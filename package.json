@@ -6,7 +6,8 @@
     "lint": "next lint",
     "build": "next build",
     "start": "next start",
-    "analyze": "cross-env ANALYZE=true next build"
+    "analyze": "cross-env ANALYZE=true next build",
+    "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",
@@ -17,12 +18,17 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.6",
     "@emotion/babel-plugin": "^11.3.0",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/react": "^6.3.4",
     "@types/node": "^16.3.1",
     "@types/react": "17.0.11",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
     "@yarnpkg/pnpify": "^3.0.0-rc.10",
+    "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
     "eslint": "^7.28.0",
     "eslint-config-next": "^11.0.1",

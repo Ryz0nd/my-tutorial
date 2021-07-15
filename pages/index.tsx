@@ -1,5 +1,10 @@
+import { Suspense } from "react";
 import styled from "@emotion/styled";
 import type { NextPage } from "next";
+import { ErrorBoundary } from "react-error-boundary";
+import Loader from "../components/shared/Loader";
+import Error from "../components/shared/Error";
+import People from "../components/People";
 
 const Container = styled.div`
   display: flex;
@@ -9,7 +14,15 @@ const Container = styled.div`
 `;
 
 const Home: NextPage = () => {
-  return <Container>HOME</Container>;
+  return (
+    <Container>
+      <ErrorBoundary fallbackRender={() => <Error />}>
+        <Suspense fallback={<Loader />}>
+          <People />
+        </Suspense>
+      </ErrorBoundary>
+    </Container>
+  );
 };
 
 export default Home;

@@ -1,11 +1,7 @@
 import { QueryClient } from "react-query";
 
 const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      suspense: true,
-    },
-  },
+  defaultOptions: {},
 });
 
 export default queryClient;

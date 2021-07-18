@@ -10676,8 +10676,8 @@ fsevents@^1.2.7:
     eslint-plugin-react-hooks: ^4.2.0
     next: ^11.0.1
     next-secure-headers: ^2.2.0
-    react: 18.0.0-alpha-7ec4c5597
-    react-dom: 18.0.0-alpha-7ec4c5597
+    react: next
+    react-dom: next
     react-error-boundary: ^3.1.3
     react-query: ^3.18.1
     typescript: 4.3.2
@@ -12377,16 +12377,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.0.0-alpha-7ec4c5597":
-  version: 18.0.0-alpha-7ec4c5597
-  resolution: "react-dom@npm:18.0.0-alpha-7ec4c5597"
+"react-dom@npm:next":
+  version: 18.0.0-alpha-310187264-20210716
+  resolution: "react-dom@npm:18.0.0-alpha-310187264-20210716"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-    scheduler: 0.21.0-alpha-7ec4c5597
+    scheduler: 0.21.0-alpha-310187264-20210716
   peerDependencies:
-    react: 18.0.0-alpha-7ec4c5597
-  checksum: 7952a7fabd47d9c1ea52ff0e605cccc9e3401b6413c6a08db19766ba9bb760b7cb31e3de98a522316f0c87efb9ad7518ece7d89a7220315070b5a2bead34cd41
+    react: 18.0.0-alpha-310187264-20210716
+  checksum: 483dcee2360d8a386dd0e8719f56cedf5f569913587c739a602bbe83eb80d4958d36d98db0911b27be1de246b5056d5a61a6b32c44034cfc4f31df31c9f63613
   languageName: node
   linkType: hard
 
@@ -12583,13 +12583,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react@npm:18.0.0-alpha-7ec4c5597":
-  version: 18.0.0-alpha-7ec4c5597
-  resolution: "react@npm:18.0.0-alpha-7ec4c5597"
+"react@npm:next":
+  version: 18.0.0-alpha-310187264-20210716
+  resolution: "react@npm:18.0.0-alpha-310187264-20210716"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: 0e1ad08f2a79a7a370812e26768885aee1067ca6f9ce2aa55a6f7746dc0ddfd0e7979319536f4b63c8131345d77db55ccf081d8e6ca7383f2ab8bd6049ede836
+  checksum: 1034489165bf2b1abc7c6124c255e0d2e46786b3c90ef5ba210f4590717a49b4a3e781e1af4217a696fac5dc67d14149b3ece4f70215598a0994ea7c393345b5
   languageName: node
   linkType: hard
 
@@ -13163,13 +13163,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"scheduler@npm:0.21.0-alpha-7ec4c5597":
-  version: 0.21.0-alpha-7ec4c5597
-  resolution: "scheduler@npm:0.21.0-alpha-7ec4c5597"
+"scheduler@npm:0.21.0-alpha-310187264-20210716":
+  version: 0.21.0-alpha-310187264-20210716
+  resolution: "scheduler@npm:0.21.0-alpha-310187264-20210716"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: 0cb115e885326cd36675c911346ea08a27ed401233e1b030a322eaf208a383890e1502bfef9c2526ac5534198166dfcfbff8f2933a1aed7949ab9ee8be7aa9db
+  checksum: 0f30274317700bbf44de1a3bbde99ec74c7629e9d69e5418c5dc57b56d5b6089f35ce2f497b2f0424c1ce4a585348adc81e86c0e67019737d13bca17bc9e97f7
   languageName: node
   linkType: hard
 

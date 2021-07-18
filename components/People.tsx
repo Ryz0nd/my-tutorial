@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import axios, { AxiosPromise } from "axios";
+import axios from "axios";
 import { useQuery } from "react-query";
 
 const PeopleContainer = styled.div``;

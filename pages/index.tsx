@@ -1,10 +1,12 @@
 import { Suspense } from "react";
 import styled from "@emotion/styled";
+import dynamic from "next/dynamic";
 import type { NextPage } from "next";
 import { ErrorBoundary } from "react-error-boundary";
 import Loader from "../components/shared/Loader";
 import Error from "../components/shared/Error";
-import People from "../components/People";
+
+const People = dynamic(() => import("../components/People"), { ssr: false });
 
 const Container = styled.div`
   display: flex;

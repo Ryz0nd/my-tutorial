@@ -1,0 +1,28 @@
+{
+  "name": "relay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "relay": "yarn run relay-compiler --schema schema.graphql --src ./ --watchman false $@",
+    "dev": "yarn run relay && next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-relay": "^11.0.2",
+    "relay-runtime": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@types/react": "17.0.16",
+    "babel-plugin-relay": "^11.0.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.0.1",
+    "graphql": "^15.5.1",
+    "relay-compiler": "^11.0.2",
+    "typescript": "4.3.5"
+  }
+}

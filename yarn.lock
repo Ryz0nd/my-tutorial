@@ -1874,31 +1874,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caller-callsite@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "caller-callsite@npm:2.0.0"
-  dependencies:
-    callsites: ^2.0.0
-  checksum: b685e9d126d9247b320cfdfeb3bc8da0c4be28d8fb98c471a96bc51aab3130099898a2fe3bf0308f0fe048d64c37d6d09f563958b9afce1a1e5e63d879c128a2
-  languageName: node
-  linkType: hard
-
-"caller-path@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "caller-path@npm:2.0.0"
-  dependencies:
-    caller-callsite: ^2.0.0
-  checksum: 3e12ccd0c71ec10a057aac69e3ec175b721ca858c640df021ef0d25999e22f7c1d864934b596b7d47038e9b56b7ec315add042abbd15caac882998b50102fb12
-  languageName: node
-  linkType: hard
-
-"callsites@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "callsites@npm:2.0.0"
-  checksum: be2f67b247df913732b7dec1ec0bbfcdbaea263e5a95968b19ec7965affae9496b970e3024317e6d4baa8e28dc6ba0cec03f46fdddc2fdcc51396600e53c2623
-  languageName: node
-  linkType: hard
-
 "callsites@npm:^3.0.0":
   version: 3.1.0
   resolution: "callsites@npm:3.1.0"
@@ -2129,18 +2104,6 @@ __metadata:
   version: 1.0.2
   resolution: "core-util-is@npm:1.0.2"
   checksum: 7a4c925b497a2c91421e25bf76d6d8190f0b2359a9200dbeed136e63b2931d6294d3b1893eda378883ed363cd950f44a12a401384c609839ea616befb7927dab
-  languageName: node
-  linkType: hard
-
-"cosmiconfig@npm:^5.0.5":
-  version: 5.2.1
-  resolution: "cosmiconfig@npm:5.2.1"
-  dependencies:
-    import-fresh: ^2.0.0
-    is-directory: ^0.3.1
-    js-yaml: ^3.13.1
-    parse-json: ^4.0.0
-  checksum: 8b6f1d3c8a5ffdf663a952f17af0761adf210b7a5933d0fe8988f3ca3a1f0e1e5cbbb74d5b419c15933dd2fdcaec31dbc5cc85cb8259a822342b93b529eff89c
   languageName: node
   linkType: hard
 
@@ -3468,16 +3431,6 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"import-fresh@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "import-fresh@npm:2.0.0"
-  dependencies:
-    caller-path: ^2.0.0
-    resolve-from: ^3.0.0
-  checksum: 610255f9753cc6775df00be08e9f43691aa39f7703e3636c45afe22346b8b545e600ccfe100c554607546fc8e861fa149a0d1da078c8adedeea30fff326eef79
-  languageName: node
-  linkType: hard
-
 "import-fresh@npm:^3.0.0, import-fresh@npm:^3.1.0, import-fresh@npm:^3.2.1":
   version: 3.3.0
   resolution: "import-fresh@npm:3.3.0"
@@ -3628,13 +3581,6 @@ fsevents@~2.3.1:
   version: 1.0.4
   resolution: "is-date-object@npm:1.0.4"
   checksum: 20ce7b73fda926b4dfad2457e0d6fa04bb0a4cf555456d68918e334cbf80ac30523155adac420be0c8a4bc126fafe0874c4cfc0ffe0d97bac6333a8f02de1b94
-  languageName: node
-  linkType: hard
-
-"is-directory@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "is-directory@npm:0.3.1"
-  checksum: dce9a9d3981e38f2ded2a80848734824c50ee8680cd09aa477bef617949715cfc987197a2ca0176c58a9fb192a1a0d69b535c397140d241996a609d5906ae524
   languageName: node
   linkType: hard
 
@@ -5307,17 +5253,6 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"relay-config@npm:^11.0.2":
-  version: 11.0.2
-  resolution: "relay-config@npm:11.0.2"
-  dependencies:
-    cosmiconfig: ^5.0.5
-  peerDependencies:
-    relay-compiler: 11.0.2
-  checksum: ae0672f7544432220523a0fb114f831d826eb0f7d2bf3606eb5697bdc8e7a4aaf7c4bdfeb88ad594c2e4347f93cda0a60a9ca88c65bb8bba0cc769bce103c345
-  languageName: node
-  linkType: hard
-
 "relay-runtime@npm:11.0.2, relay-runtime@npm:^11.0.2":
   version: 11.0.2
   resolution: "relay-runtime@npm:11.0.2"
@@ -5347,7 +5282,6 @@ fsevents@~2.3.1:
     react-relay: ^11.0.2
     relay-compiler: ^11.0.2
     relay-compiler-language-typescript: ^14.1.0
-    relay-config: ^11.0.2
     relay-runtime: ^11.0.2
     typescript: 4.3.5
   languageName: unknown
@@ -5378,13 +5312,6 @@ fsevents@~2.3.1:
   version: 2.0.0
   resolution: "require-main-filename@npm:2.0.0"
   checksum: e9e294695fea08b076457e9ddff854e81bffbe248ed34c1eec348b7abbd22a0d02e8d75506559e2265e96978f3c4720bd77a6dad84755de8162b357eb6c778c7
-  languageName: node
-  linkType: hard
-
-"resolve-from@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "resolve-from@npm:3.0.0"
-  checksum: fff9819254d2d62b57f74e5c2ca9c0bdd425ca47287c4d801bc15f947533148d858229ded7793b0f59e61e49e782fffd6722048add12996e1bd4333c29669062
   languageName: node
   linkType: hard
 
